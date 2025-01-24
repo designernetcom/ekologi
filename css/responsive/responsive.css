@@ -558,7 +558,7 @@
 		margin:10px 0 20px 0;
 	}
 	.company_achievement .right_half {
-		bottom: 140px;
+		bottom: 40px;
 		width:100%;
 	}
 	.company_achievement .right_half h2 {
@@ -777,6 +777,24 @@
         position: static;
         padding-bottom: 10px;
     }
+	.our-service .single-service .hover_overlay p {
+		padding: 0px 16px;
+		line-height: 24px;
+		font-size: 14px;
+
+	}
+	.left-div p {
+		color: #f3f3f3;
+		padding: 5px 0px;
+		text-align: center;
+	}
+	footer p.bottom_text {
+		color: #f3f3f3;
+		/* text-align: left; */
+		padding: 5px 0px;
+		/* margin-top: 60px; */
+	}
+	
 }
 
 

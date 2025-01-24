@@ -103,7 +103,7 @@ a:active {
 	text-decoration: none;
 }
 .main_button {
-	line-height: 50px;
+	line-height: 42px;
 	display: inline-block;
 	-webkit-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -804,7 +804,7 @@ color:#fff;
 .company_achievement .half2 {
 	float:left;
 	position: relative;
-	height:470px;
+	height:300px;
 	width:50%;
 }
 .company_achievement .half1 {
@@ -843,7 +843,7 @@ margin-top:0px;
 .company_achievement .container {
 	position: relative;
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 50px;
 }
 .company_achievement .left_half {
 	position: absolute;
@@ -858,9 +858,8 @@ margin-top:0px;
     position: relative;
     padding-bottom: 23px;
     line-height: 25px;
-    font-size: 20px;
-    font-weight: 400;
-	
+    font-size: 27px;
+    font-weight: 600;
 }
 .company_achievement .left_half h6{
 	color: #fff;
@@ -883,27 +882,29 @@ margin-top:0px;
 	font-size: 60px;
 }
 .company_achievement p {
-	font-size: 18px;
-	line-height: 27px;
-	margin-top: 24px;
-    margin-bottom: 31px;
+	font-size: 17px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 .company_achievement .left_half p {
 	color:#fff;
 }
 .company_achievement .left_half  a {
 	color:#fff;
-	width:150px;
+	width:130px;
+	margin-top: 10px;
 }
 .company_achievement .left_half  a:hover {
 	background: #fff;
 	color:#00c4fc;
 }
 .company_achievement .right_half h2 {
-	color:#fff;
-	position: relative;
-	padding-bottom: 23px;
-	line-height: 50px;
+	color: #fff;
+    position: relative;
+    padding-bottom: 18px;
+    line-height: 30px;
+	font-size: 27px;
 }
 .company_achievement .right_half h2:before {
 	content: '';
@@ -925,7 +926,7 @@ margin-top:0px;
 .company_achievement .right_half  a {
 	background: #fff;
 	color:#000;
-	width:150px;
+	width:130px;
 }
 .company_achievement .right_half  a:hover {
 	background: #00c4fc;
@@ -1481,10 +1482,10 @@ footer .contact_form_footer button {
 }
 footer p.bottom_text {
 	color: #f3f3f3;
-    text-align: center;
-    border-top: 1px solid #707070;
-	padding: 20px 0;
-	margin-top:60px;
+    /* text-align: left; */
+    
+    padding: 20px 0px;
+    /* margin-top: 60px; */
 }
 footer p.bottom_text a {
 	color:#f3f3f3;
@@ -3450,3 +3451,23 @@ ul.listing2 li{
 		  color:#53c5ff;}
 	  .fas fa-shopping-cart  {
 		  background-color:#FFF;}
+
+
+		  .left-div ul{
+			display: flex;
+		  }
+		  .foot-bottom{
+			padding-top: 50px;
+		  }
+		  .foot-bottom .row{
+			border-top: 1px solid #707070;
+		  }
+
+		 .left-div p a{
+			color: #f3f3f3;
+		 }
+		 .left-div p{
+			color: #f3f3f3;
+			padding: 20px 0px;
+			text-align: right;
+		  }
