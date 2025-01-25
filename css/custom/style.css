@@ -133,6 +133,7 @@ ul {
 p {
 	line-height: 26px;
 	margin: 0;
+	color: #1c1c1c;
 }
 h2 {
 	font-size: 40px;
@@ -187,6 +188,7 @@ h6 {
 .title_holder_center {
 	text-align: center;
 }
+
 .title_holder p.upper_title {
 	font-family: "Montserrat", serif;
 	color:rgba(0,0,0,0.4);
@@ -267,7 +269,7 @@ h3 span.firm,.latest_news .single_news_item .post_history ul li i,.latest_news .
 }
 /*===================== Header/Main menu ============*/
 header {
-	background: transparent;
+	background: #fff;
 	z-index: 9999;
 	position: relative;
 }
@@ -295,8 +297,8 @@ header .nav {
 .navbar-default .navbar-nav > li > a {
 	font-family: "Montserrat", serif;
     /* text-transform: uppercase; */
-    font-weight: 400;
-    color: #ffffff;
+    font-weight: 500;
+    color: #000;
     font-size: 17px;
     padding-left: 14px;
     position: relative;
@@ -329,17 +331,17 @@ header .nav>li:last-child>a {
 
 .navbar-default .navbar-nav > li .sub_menu li a {
 	font-family: "Montserrat", serif;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 15px;
-	line-height: 22px;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
     padding: 10px 14px;
-    color: #555555;
+    color: #141414;
     border-bottom: 1px solid #d5d0d0;
-	display: block;
+    display: block;
 }
 .navbar-default .navbar-nav > li .sub_menu li a:hover {
-	color:#00c4fc;
+	color:#0038c0;
 }
 .navbar-default .navbar-nav > li .sub_menu li:last-child a {
 	border:none;
@@ -502,7 +504,7 @@ header .search_icon {
 }
 /*========================= We are Right Firm ===================*/
 .right_firm {
-	padding-top: 100px;
+	padding-top: 70px;
 }
 .some_achievement {
 	border-top:1px solid #eeeeee;
@@ -555,7 +557,8 @@ header .search_icon {
 	text-align: right
 }
 .right_firm .our_goal {
-	margin-top:50px;
+	margin-top: 50px;
+    margin-bottom: 0px;
 }
 .right_firm .invo-mfix {margin-top: 33px;}
 .right_firm .ceo .img_holder,
@@ -635,18 +638,18 @@ header .search_icon {
 }
 /*===================== Practise Area ===================*/
 .our-service {
-	margin-top:113px;
-	margin-bottom:113px;
+	padding: 50px 0px 70px;
+    background: #e4f0ff;
 }
 .our-service .single-service {
 	text-align: center;
-	float:left;
-    width: 33.3333333333%;
+	/* float:left;
+    width: 33.3333333333%; */
     position: relative;
     border-bottom: 1px solid #f1f1f1;
 }
 .our-service .single-service .icon {
-	padding: 68px 0;
+	padding: 30px 30px;
 }
 .our-service .single-service.border_right {
 	border-right: 1px solid #f1f1f1;
@@ -667,8 +670,10 @@ header .search_icon {
 }
 .our-service .single-service .icon h4 {
 	position: relative;
-	margin-top:20px;
+	margin-top:10px;
 	color:#fff;
+	line-height: 33px;
+    font-size: 22px;
 }
 .our-service .single-service .icon span:before {
 color:#fff;
@@ -829,8 +834,8 @@ color:#fff;
 	background:#00143a;
 }
 .company_achievement .half2 .overlay {
-	
-	background-image: linear-gradient(-90deg, #226ada, #01a447);
+	background-image: linear-gradient(-90deg, #001338, #001338);
+	/* background-image: linear-gradient(-90deg, #226ada, #01a447); */
 }
 .navbar-brand {
 margin-top:0px;
@@ -847,11 +852,15 @@ margin-top:0px;
 }
 .company_achievement .left_half {
 	position: absolute;
-	left:40px;
+	left:90px;
+	border: 1px solid #fff;
+    padding: 30px;
 }
 .company_achievement .right_half {
 	position: absolute;
-	right:0;
+    right: 125px;
+    border: 1px solid #fff;
+    padding: 30px;
 }
 .company_achievement .left_half h2 {
 	color: #ffffff;
@@ -2006,7 +2015,7 @@ footer .contact_form_footer textarea:focus,footer .contact_form_footer input:foc
 /*============================ About us =======================*/
 .about-us .right_firm {
 	padding-top: 0;
-	padding-bottom: 75px;
+	padding-bottom: 25px;
 }
 
 .video .video_text {
@@ -2139,10 +2148,11 @@ footer .contact_form_footer textarea:focus,footer .contact_form_footer input:foc
 	margin-bottom:50px;
 }
 .parctise_details_page_content .title h3 {
-	margin-top:53px;
-	font-size: 28px;
-	text-transform: capitalize;
-	font-weight: 700;
+	margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
 }
 .parctise_details_page_content .title p {
 	font-weight: 700;
@@ -3260,12 +3270,13 @@ footer .contact_form_footer textarea:focus,footer .contact_form_footer input:foc
 .navbar-default .navbar-nav > .active > a
 {
 	background:none;
-	color:#fff;
+	color: #003dc6;
+	font-weight: 500;
 }
 .navbar-default .navbar-nav > .active > a:hover
 {
 	background:none;
-	color:#fff;
+	color:#013ec6;
 }
 
 .p1 p{
@@ -3471,3 +3482,194 @@ ul.listing2 li{
 			padding: 20px 0px;
 			text-align: right;
 		  }
+
+.extra-setion{
+	background: #00143a;
+}
+.extra-setion .our_goal{
+	padding: 70px 0px;
+}
+.data-text{
+	text-align: center;
+}
+.data-text h2{
+	font-size: 33px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: #fff;
+}
+.data-text p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #cdcdcd;
+}
+.data-text a{
+	font-size: 17px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	color: #fff;
+	width: 140px;
+	background: #00b256;
+	margin-top: 15px;
+	border-radius: 25px;
+}
+.bleft{
+	border-right: 1px solid #fff;
+}
+.navbar-brand {
+    float: left;
+    height: 95px;
+    padding: 5px 5px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.single-services .icon p{
+	color: #181818;
+	margin-bottom: 10px;
+	line-height: 24px;
+	font-size: 15px;
+}
+.single-services .icon a{
+	color: #ffffff;
+    border: 1px solid #0038c4;
+    padding: 9px 17px;
+    background: #0038c4;
+	
+}
+.single-services{
+	padding: 20px;
+	text-align: center;
+	border: 1px solid #898989;
+	margin-bottom: 20px;
+}
+.single-services span{
+	font-size: 30px;
+	font-weight: 800;
+}
+.title_holder_center h1{
+	text-align: center;
+	font-size: 40px;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+.title_holder_center h3{
+	text-align: center;
+	font-size: 25px;
+}
+.team-section .title-main{
+	text-align: center;
+	font-size: 35px;
+	line-height: 42px;
+	margin-bottom: 35px;
+}
+.team-section .team-text h3{
+	font-size: 25px;
+	line-height: 22px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.img-div{
+	text-align: center;
+	align-items: center;
+}
+.bord-right{
+	border-right: 1px solid #6a6a6a;
+}
+.bord-left{
+	border-left: 1px solid #6a6a6a;
+}
+.team-section{
+	padding-bottom: 50px;
+}
+.team-text {
+	padding: 10px 20px;
+}
+.team-text p{
+	color: #000;
+	color: #202020;
+}
+.sec-d{
+	
+    padding: 20px;
+    border: 1px solid #6a6a6a;
+	margin-bottom:30px;
+}
+.main-cont .text{
+	display: flex;
+	margin-top: 20px;
+}
+.main-cont .text i{
+	font-size: 26px;
+    line-height: 45px;
+    padding-right: 15px;
+	color: #0046c8;
+}
+.sub-divv h5{
+	margin-bottom: 4px;
+	font-size:20px ;
+	font-weight: 600;
+}
+.sub-divv p a{
+	color: #1c1c1c;
+}
+.main-form h4{
+	margin-bottom: 20px;
+}
+.main-form button {
+    border: none;
+    /* box-shadow: none; */
+    /* outline: none; */
+    padding: 8px 20px;
+    background: green;
+    color: #fff;
+    border-radius: 20px;
+}
+.main-cont{
+	border: 1px solid #444444;
+    padding: 25px 40px 30px;
+    border-radius: 20px;
+}
+.main-form{
+	border: 1px solid #444444;
+    padding: 20px 30px 30px;
+    border-radius: 20px;
+}
+.main-cont .text1 {
+   
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #bbbbbb;
+    padding-bottom: 15px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #a9a9a9;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.cont-section {
+	padding-top: 60px;
+	padding-bottom: 25px;
+}
+.main-form .form-group input::placeholder{
+	color: #161616;
+}
+.main-form .form-group textarea::placeholder{
+	color: #161616;
+}
+.cookie p{
+	color: #fff;
+}
