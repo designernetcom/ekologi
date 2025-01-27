@@ -93,6 +93,10 @@
 	#main_slider_two .tp-bullets {
 		left:65% !important;
 	}
+	.single-services h4{
+		font-size: 18px;
+	}
+	
 }
 
 /*(min-width: 992px) and (max-width: 1199px)*/
@@ -643,6 +647,7 @@
 	}
 	.our-team .owl_slider .customNavigation,#our-service-style-two .customNavigation {top:20px;}
 	.our-team .owl_slider {padding-top: 70px;}
+	
 }
 
 /*(max-width: 767px)*/
@@ -651,6 +656,11 @@
 @media (min-width: 768px) {
 	.main_menu nav ul li.dropdown_menu .fa-bars {
 		display: none;
+	}
+}
+@media (max-width: 768px) {
+	.right_firm .our_goal a {
+		margin-bottom: 15px;
 	}
 }
 
@@ -798,7 +808,7 @@
 		background: url(../../images/home/inner-banner.jpg) no-repeat center;
 		background-size: cover;
 		height: 250px;
-		margin-top: -110px;
+		/* margin-top: -110px; */
 		margin-bottom: 30px;
 	}
 	.cont-section {
@@ -808,6 +818,44 @@
 	.title-main h2{
 		font-size: 33px;
 	}
+	.right_firm {
+		padding-bottom: 0px;
+	}
+	.mobd .row{
+		flex-direction: column-reverse !important;
+		display: flex;
+	}
+	.mobd .row{
+		flex-direction: column-reverse !important;
+		display: flex;
+	}
+	.mobd .bord-left{
+		border-left: none;
+	}
+
+	.mobd .bord-right{
+		border-right: none;
+	}
+	.team-text{
+		text-align: center;
+	}
+	.service .title h3 {
+		text-align: center;
+		font-size: 26px;
+		font-weight: 600;
+	}
+	.parctise_details_page_content .text h3 {
+		font-family: "Montserrat", serif;
+		font-weight: 800;
+		text-transform: uppercase;
+		font-size: 26px;
+	}
+	.p1 h4 {
+		padding-bottom: 15px;
+		font-size: 20px;
+		color: #404040;
+	}
+	
 }
 
 

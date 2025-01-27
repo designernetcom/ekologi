@@ -167,7 +167,7 @@ h4,
 h5,
 h6 {
 	font-family: "Montserrat", serif;
-	color:#2c2c2c;
+	color:#1c1c1c;
 	font-weight: 700;
 }
 .m-top0 {margin-top: 0 !important;}
@@ -579,6 +579,7 @@ header .search_icon {
     display: inline-block;
     border: 1px solid #7e7e7e;
     padding: 10px 20px;
+	border-radius: 5px;
 }
 
 /*===================== Need legal advice ================*/
@@ -2161,9 +2162,10 @@ footer .contact_form_footer textarea:focus,footer .contact_form_footer input:foc
 	font-family: "Montserrat", serif;
 	font-weight: 800;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 26px;
 	margin-top:48px;
 	margin-bottom: 10px;
+	line-height: 32px;
 }
 .parctise_details_page_content .consult {
 	background: #eeeeee;
@@ -3286,6 +3288,7 @@ footer .contact_form_footer textarea:focus,footer .contact_form_footer input:foc
 .p1 ul li{
 	padding-bottom:20px;
 	font-weight:600;
+	color: #1e1e1e;
 }
 
 .p2 ul li p{
@@ -3317,7 +3320,8 @@ ul.listing li{
 
 ul.listing2 li{
 	font-weight:400;
-	line-height:35px;
+	line-height: 30px;
+    color: #1e1e1e;
 	}
 
 	.navbar-brand > img {
@@ -3525,22 +3529,25 @@ ul.listing2 li{
 }
 .single-services .icon p{
 	color: #181818;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	line-height: 24px;
 	font-size: 15px;
 }
 .single-services .icon a{
 	color: #ffffff;
-    border: 1px solid #0038c4;
-    padding: 9px 17px;
-    background: #0038c4;
-	
+    border: 1px solid #0076b2;
+    padding: 7px 17px;
+    background: #0076b2;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
 }
 .single-services{
-	padding: 20px;
+	padding: 30px 20px;
 	text-align: center;
 	border: 1px solid #898989;
 	margin-bottom: 20px;
+	background: #fff;
 }
 .single-services span{
 	font-size: 30px;
@@ -3673,3 +3680,31 @@ ul.listing2 li{
 .cookie p{
 	color: #fff;
 }
+.tp-parallax-wrap h5{
+	font-size: 20px !important;
+	text-align: center !important;
+}
+.single-services .icon img{
+	width: 80px;
+	margin-bottom: 10px;
+}
+.right_firm{
+	padding-bottom: 50px;
+}
+.mtop{
+	margin-top: 30px;
+}
+.feedback .title h3{
+	text-align: center;
+	font-size: 35px;
+}
+
+.feedback .text{
+	text-align: center;
+	width: 100%;
+}
+.service .title h3{
+	text-align: center;
+	font-size: 35px;
+}
+
