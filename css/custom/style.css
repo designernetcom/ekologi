@@ -3398,8 +3398,8 @@ ul.listing2 li{
 		  transform:rotate(360deg);}
 	  /*.search_icon a:hover i  {
 		  transform:rotate(360deg);}*/
-	  .Facebook  {
-		  background-color:#3b5998;
+	  .phone {
+		  background-color:#224ba5;
 		  color:#FFF;}
 		  
 	  .Youtube  {
@@ -3449,9 +3449,10 @@ ul.listing2 li{
 	  .sticky-icon a i.fa-instagram  {
 		  background-color:#FFF;
 		  color:#c63287;}
-		  .sticky-icon a i.fa-linkedin {
+		  
+		  .sticky-icon a i.fa-phone {
 		  background-color:#FFF;
-		  color:#0077B5;}
+		  color:#024569;}
 		  
 	  .sticky-icon a i.fa-whatsapp  {
 		  background-color:#fff;
@@ -3459,7 +3460,7 @@ ul.listing2 li{
 		  
 	  .sticky-icon a i.fa-phone  {
 		  background-color:#fff;
-		  color:blue;}
+		  color:#199bdd;}
 		  
 	  .sticky-icon a i.fa-twitter  {
 		  background-color:#FFF;
@@ -3526,6 +3527,7 @@ ul.listing2 li{
     padding: 5px 5px;
     font-size: 18px;
     line-height: 20px;
+	margin-left: -40px;
 }
 .single-services .icon p{
 	color: #181818;
@@ -3548,6 +3550,7 @@ ul.listing2 li{
 	border: 1px solid #898989;
 	margin-bottom: 20px;
 	background: #fff;
+	height: 470px;
 }
 .single-services span{
 	font-size: 30px;
@@ -3707,4 +3710,61 @@ ul.listing2 li{
 	text-align: center;
 	font-size: 35px;
 }
-
+.foot-bottom .btext{
+	/* text-align: center; */
+}
+.service_footer{
+	padding-left: 70px;
+}
+/* .container {
+	width: 1240px;
+} */
+ .middle-data{
+	margin-bottom: 70px;
+ }
+.middle-data h2{
+	font-size: 27px;
+	color: #343434;
+    line-height: 35px;
+    font-weight: 600;
+	margin-top: 0px;
+}
+.middle-data h4{
+	font-size: 20px;
+	color: #343434;
+    line-height: 30px;
+    font-weight: 600;
+}
+.middle-data ul li{
+	list-style-type: disc;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	color: #141414;
+    font-size: 17px;
+}
+.service .mbtom{
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+.service .data-row{
+	padding: 30px 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 15px;
+}
+.service .sec-row{
+	margin-top: 50px;
+}
+.service .img-div img{
+	width: 100%;
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    border-top: 1px solid #bbbbbb;
+}
+.navbar-collapse {
+    padding-right: 0px; 
+}
+.mttop{
+	margin:20px;
+}

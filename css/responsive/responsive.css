@@ -14,6 +14,7 @@
 	header .navbar-default .navbar-collapse {
 		margin-top:34px;
 	}
+	
 	.navbar-default .navbar-nav > li > a {
 		padding: 15px 14px;
 	}
@@ -112,6 +113,15 @@
 	.blog_details .post_meta .post_img {
 		margin-bottom: 35px;
 	}
+	.single-services .icon p {
+		color: #181818;
+		margin-bottom: 15px;
+		line-height: 24px;
+		font-size: 14px;
+	}
+	.single-services {
+		height: 490px !important;
+	}
 	
 }
 
@@ -129,6 +139,11 @@
 	}
 	#search_option {
 		right:15px;
+	}
+	footer h4 {
+		color: #fff;
+		margin: 0 0 25px 0;
+		font-size: 22px;
 	}
 	.some_achievement .achive:nth-child(1),
 	.some_achievement .achive:nth-child(2),
@@ -303,6 +318,9 @@
 		margin-bottom: 50px;
 	}
 	footer p.bottom_text {
+		margin-top:0px;
+	}
+	footer p.bot_text {
 		margin-top:20px;
 	}
 	footer .overlay {
@@ -657,6 +675,7 @@
 	.main_menu nav ul li.dropdown_menu .fa-bars {
 		display: none;
 	}
+	
 }
 @media (max-width: 768px) {
 	.right_firm .our_goal a {
@@ -692,6 +711,9 @@
 		width:100%;
 		padding: 0;
 		margin:20px 0;
+	}
+	.service_footer{
+		padding-left: 0px;
 	}
 	.right_firm .ceo .img_holder img {
 		margin:0 auto;
@@ -800,7 +822,7 @@
 	}
 	footer p.bottom_text {
 		color: #f3f3f3;
-		/* text-align: left; */
+		text-align: center;
 		padding: 5px 0px;
 		/* margin-top: 60px; */
 	}
@@ -841,8 +863,10 @@
 	}
 	.service .title h3 {
 		text-align: center;
-		font-size: 26px;
-		font-weight: 600;
+		font-size: 22px;
+        font-weight: 700;
+        line-height: 35px;
+        color: #1c1c1c;
 	}
 	.parctise_details_page_content .text h3 {
 		font-family: "Montserrat", serif;
@@ -852,10 +876,45 @@
 	}
 	.p1 h4 {
 		padding-bottom: 15px;
-		font-size: 20px;
-		color: #404040;
+        font-size: 19px;
+        color: #404040;
+        font-weight: 600;
+        line-height: 24px;
 	}
-	
+	.single-services .icon p {
+		color: #181818;
+		margin-bottom: 15px;
+		line-height: 24px;
+		font-size: 14px;
+	}
+	.service_footer{
+		padding-left: 20px;
+	}
+	.row {
+		margin-right: -8px;
+		margin-left: -8px;
+	}
+	.middle-data .dfrow{
+		flex-direction: column-reverse;
+		display: flex;
+	}
+	.middle-data .dfrow img{
+		margin-bottom: 20px;
+	}
+	.middle-data .sec-row img{
+		margin-bottom: 20px;
+	}
+	.service .mbtom {
+		margin-bottom: 30px;
+		margin-top: 10px;
+	}
+	.middle-data h2 {
+		font-size: 24px;
+		color: #343434;
+		line-height: 31px;
+		font-weight: 600;
+		margin-top: 0px;
+	}
 }
 
 
