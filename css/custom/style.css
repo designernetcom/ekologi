@@ -422,7 +422,7 @@ header .search_icon {
 }
 #main_slider h1 {
 	font-family: "Montserrat", serif;
-	font-size: 50px;
+	font-size: 42px !important;
 	font-weight: 700;
 	color:#fff;
 	line-height: 76px;
@@ -1382,7 +1382,7 @@ footer .overlay {
 }
 footer .logo_footer p {
 	color:#f3f3f3;
-	padding-left: 10px;
+	margin-left: 20px;
 	margin-bottom: 20px;
 	font-size: 16px;
 }
@@ -3642,7 +3642,7 @@ ul.listing2 li{
 }
 .main-form{
 	border: 1px solid #444444;
-    padding: 20px 30px 30px;
+    padding: 40px 30px 50px;
     border-radius: 20px;
 }
 .main-cont .text1 {
@@ -3684,7 +3684,7 @@ ul.listing2 li{
 	color: #fff;
 }
 .tp-parallax-wrap h5{
-	font-size: 20px !important;
+	font-size: 18px !important;
 	text-align: center !important;
 }
 .single-services .icon img{
@@ -3767,4 +3767,10 @@ hr {
 }
 .mttop{
 	margin:20px;
+}
+.form-group {
+    margin-bottom: 19px;
+}
+.sticky-icon .phone i{
+	color: #3eaaed;
 }
