@@ -639,7 +639,7 @@ header .search_icon {
 }
 /*===================== Practise Area ===================*/
 .our-service {
-	padding: 50px 0px 70px;
+	padding: 50px 0px 35px;
     background: #e4f0ff;
 }
 .our-service .single-service {
@@ -3353,7 +3353,9 @@ ul.listing2 li{
 	.data-sec{
 		text-align: center;
 		border: 1px solid #939393;
-		padding: 25px 20px;
+		padding: 35px 35px;
+		background: #016231;
+
 	}
 	.data-sec img{
 		width: 90px;
@@ -3527,19 +3529,25 @@ ul.listing2 li{
     padding: 5px 5px;
     font-size: 18px;
     line-height: 20px;
-	margin-left: -40px;
+	/* margin-left: -40px; */
+}
+.single-services h4{
+	color: #fff;
+	font-weight: 600;
+	line-height: 30px;
+	font-size: 23px;
 }
 .single-services .icon p{
-	color: #181818;
+	color: #fff;
 	margin-bottom: 15px;
 	line-height: 24px;
 	font-size: 15px;
 }
 .single-services .icon a{
-	color: #ffffff;
+	color: #000000;
     border: 1px solid #0076b2;
     padding: 7px 17px;
-    background: #0076b2;
+    background: #e5e5e5;
     border-radius: 5px;
     font-size: 14px;
     font-weight: 600;
@@ -3549,7 +3557,7 @@ ul.listing2 li{
 	text-align: center;
 	border: 1px solid #898989;
 	margin-bottom: 20px;
-	background: #fff;
+	background: #0076b2;
 	height: 470px;
 }
 .single-services span{
@@ -3750,6 +3758,21 @@ ul.listing2 li{
 	padding: 30px 20px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 15px;
 }
+.service .data-row1{
+	padding: 40px 30px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
+	border:1px solid #b5b5b5;
+	margin-bottom: 60px;
+}
+.service .data-row1 ul li{
+	list-style-type: disc;
+    margin-left: 20px;
+    padding-top: 10px;
+	color: #1c1c1c;
+}
+.service .data-row1 h4{
+    padding-top: 10px;
+}
 .service .sec-row{
 	margin-top: 50px;
 }
@@ -3773,4 +3796,18 @@ hr {
 }
 .sticky-icon .phone i{
 	color: #3eaaed;
+}
+.container {
+	width: 93%;
+}
+.vision-setion .subb-data p {
+    line-height: 26px;
+    margin: 0;
+    color: #ffffff;
+}
+.vision-setion .subb-data h4 {
+    color: #ffffff;
+}
+.our-service .item{
+	margin: 15px;
 }

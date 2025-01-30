@@ -225,7 +225,7 @@
 
 	.main_menu .navbar-header,
 	.main_menu .navbar-brand {
-		float:none;
+		/* float:none; */
 		text-align: center;
 		height:auto;
 	}
@@ -792,7 +792,6 @@
 	}
 	.our-service {
 		margin-top: 40px;
-		margin-bottom: 70px;
 	}
 	.our-service .practise_item_wrapper {
 		margin-top: 40px;
@@ -881,8 +880,11 @@
         font-weight: 600;
         line-height: 24px;
 	}
+	.container {
+		width: 100%;
+	}
 	.single-services .icon p {
-		color: #181818;
+		color: #fff;
 		margin-bottom: 15px;
 		line-height: 24px;
 		font-size: 14px;
