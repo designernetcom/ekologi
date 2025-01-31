@@ -1026,7 +1026,7 @@ Elevate your business, enhance experiences, and leverage data-driven insights.
 								<img src="images/icon/leader.png">
 								<h4>Fractional Technology Leadership</h4>
 								<p>
-									
+									Fractional CIO/CTO services offer strategic leadership to guide your organization's technology initiatives, crafting tailored tech strategies and roadmaps. We ensure optimal resource allocation, cost-effective solutions, and risk mitigation to maximize the impact of technology investments on your business.
 								</p>
 								<a href="fractional-technology-leadership.html">Learn More</a>	
 							</div>
@@ -1204,6 +1204,7 @@ Elevate your business, enhance experiences, and leverage data-driven insights.
 	<script type="text/javascript" src="vendor/jquery-ui/jquery-ui.min.js"></script>
 	<!-- Validation -->
 	<script type="text/javascript" src="js/validate.js"></script>
+	<!-- <script type="text/javascript" src="js/owl.carousel.js"></script> -->
 
 	<!--  -->
 
@@ -1212,13 +1213,36 @@ Elevate your business, enhance experiences, and leverage data-driven insights.
 	<!-- Theme js -->
 	<script type="text/javascript" src="js/theme.js"></script>
 
-	<div id="cookieConsent" class="cookie" style="position: fixed; bottom: 0px; left: 0px; right: 0px; background: rgb(13, 76, 42); color: rgb(255, 255, 255); padding: 10px 20px; z-index: 9999; display: block; font-size: 14px;">
-        <p style="margin: 0; display: inline-block;">We use cookies to enhance your experience. By continuing to visit
-            this site, you agree to our use of cookies.
-            <a href="https://srivallabhinvestment.com/terms-and-condition.html" style="color: #ffbb00">Learn more</a>
-        </p>
-        <button id="acceptCookies" style="margin-left: 20px; background: #ffbb00; border: none;font-weight: 600; color: #000000; padding: 5px 10px; cursor: pointer;">Accept</button>
+	<div id="cookieConsent" class="cookie">
+		<div class="row">
+			<div class="col-md-9">
+				<p style="margin: 0; display: inline-block;">
+					We use cookies to make our site work well for you and so we can continually
+					improve it. The cookies that keep the site functioning are always on. We use
+					analytics and marketing cookies to help us understand what content is of most
+					interest and to personalise your user experience. You can express your choice
+					globally, or set your preferences by cookie purpose by using the 'Cookie
+					Settings' option. You can change these choices at any time. Please
+					refer 
+					<a href="terms-of-service.html" style="color: #000;font-weight: 600;">cookies info</a>
+					 for more details. For more details on how we manage your
+					personal data please refer to 
+					<a href="privacy-policy.html" style="color: #000;font-weight: 600;">Privacy Policy</a>
+				</p>
+			</div>
+			<div class="col-md-3">
+				<div class="btn-div">
+					<button id="acceptCookies" class=" abtn cbtn" >Accept All Cookies</button>
+					<button id="necessaryCookies" class=" nbtn cbtn" >Necessary Cookies Only</button>
+					<!-- <a href="">
+						<button id="manageCookies" class=" mbtn cbtn" >Manage Cookies Setting</button>
+					</a> -->
+				</div>
+			</div>
+		</div>
     </div>
+
+
 	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         document.addEventListener("DOMContentLoaded", function () {
             if (!localStorage.getItem("cookieConsent")) {
@@ -1231,26 +1255,46 @@ Elevate your business, enhance experiences, and leverage data-driven insights.
             });
         });
     </script>
+	
 
 <script>
-	$('.owl-carousel').owlCarousel({
-loop:true,
-margin:10,
-items:3,
-autoplay:true,
-nav:true,
-responsive:{
-	0:{
-		items:1
-	},
-	600:{
-		items:2
-	},
-	1000:{
-		items:3
-	}
-}
-})
+	// $('.owl-carousel').owlCarousel({
+	// 	loop:true,
+	// 	margin:10,
+	// 	items:3,
+	// 	autoplay:true,
+	// 	autoplayTimeout:1000, 
+	// 	autoplayHoverPause:true,
+	// 	nav: true,
+	// 	navText: ["<span class='arrow-prev'>&#10094;</span>", "<span class='arrow-next'>&#10095;</span>"], // Custom arrow design
+		
+	// 	responsive:{
+	// 		0:{
+	// 			items:1
+	// 		},
+	// 		600:{
+	// 			items:2
+	// 		},
+	// 		1000:{
+	// 			items:3
+	// 		}
+	// 	}
+	// })
+
+	var owl = $('.owl-carousel');
+owl.owlCarousel({
+  items: 3,
+  loop: true,
+  margin: 10,
+  arrows:true,
+  autoplay: true,
+  autoplayTimeout: 1000,
+  autoplayHoverPause: true
+});
+
+
+
+
 </script>
 
 </body>

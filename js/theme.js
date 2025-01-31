@@ -66,7 +66,7 @@ function mainBannerTwo () {
       sliderType:"standard",
       sliderLayout:"auto",
       loops:false,
-      delay:7000,
+      delay:1000,
       navigation: {
          bullets: {
                   enable: true,
@@ -116,7 +116,7 @@ function teamSlider() {
               itemsTablet: [550,1], 
               itemsMobile : false,// itemsMobile disabled - inherit from itemsTablet option
               pagination : false,
-              autoPlay:7000
+              autoPlay:1000
           });
          
           // Custom Navigation Events

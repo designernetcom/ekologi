@@ -3,6 +3,7 @@
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
+
 }
 
 
@@ -100,12 +101,21 @@
 	
 }
 
-/*(min-width: 992px) and (max-width: 1199px)*/
+@media (min-width: 1200px) and (max-width: 1999px){
+	.cookie {
+		position: fixed;
+		bottom: 20%;
+	}
+}
 
 
 @media (max-width: 1199px) {
 	.accordion_panel .choose_us_panel {
 		padding-right: 0;
+	}
+	.cookie {
+		position: fixed;
+		bottom: 8%;
 	}
 	.extra_facts .our_skills {
 		padding-right: 15px;
@@ -681,6 +691,10 @@
 	.right_firm .our_goal a {
 		margin-bottom: 15px;
 	}
+	.cookie {
+		position: fixed;
+		bottom: 11%;
+	}
 }
 
 
@@ -923,7 +937,16 @@
 	.foot-bottom {
 		padding-top: 20px;
 	}
-	
+	.cookie {
+		position: fixed;
+		/* bottom: -36% !important; */
+		padding: 16px 10px;
+		z-index: 9999;
+		width: 88%;
+	}
+	.cookie p{
+		padding-bottom: 10px;
+	}
 }
 
 
@@ -984,7 +1007,7 @@
 }
 @media screen and (max-width: 600px) {
     #cookieConsent {
-        bottom: 50px !important;
+        bottom: -25px !important;
     }
 	.bleft{
 		border-right: none;
