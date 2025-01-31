@@ -315,7 +315,7 @@
 	footer .service_footer,
 	footer .news_footer,
 	footer .contact_form_footer {
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 	}
 	footer p.bottom_text {
 		margin-top:0px;
@@ -917,6 +917,13 @@
 		font-weight: 600;
 		margin-top: 0px;
 	}
+	.service .data-row1 {
+		padding: 13px 14px 25px;
+	}
+	.foot-bottom {
+		padding-top: 20px;
+	}
+	
 }
 
 
