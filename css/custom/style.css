@@ -3693,9 +3693,9 @@ ul.listing2 li{
 	font-size: 18px !important;
 	text-align: center !important;
 }
-.single-services .icon img{
+.owl-carousel .single-services .icon img{
 	width: 80px;
-	margin-bottom: 10px;
+	margin: 0px auto;
 }
 .right_firm{
 	padding-bottom: 50px;
