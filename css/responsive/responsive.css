@@ -139,7 +139,7 @@
 		font-size: 14px;
 	}
 	.single-services {
-		height: 560px !important;
+		height: 500px !important;
 	}
 	
 }
@@ -911,7 +911,7 @@
 		width: 100%;
 	}
 	.single-services .icon p {
-		color: #fff;
+		color: #161616;
 		margin-bottom: 15px;
 		line-height: 24px;
 		font-size: 14px;
