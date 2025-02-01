@@ -12,6 +12,10 @@
 	.main_menu .navbar-header {
 		width:25%;
 	}
+	.single-services .icon img {
+		width: 58px;
+		margin-bottom: 0px;
+	}
 	header .navbar-default .navbar-collapse {
 		margin-top:34px;
 	}
@@ -96,7 +100,12 @@
 		left:65% !important;
 	}
 	.single-services h4{
-		font-size: 18px;
+		line-height: 22px;
+        font-size: 15px;
+    
+	}
+	.extra-height {
+		padding: 23px 13px;
 	}
 	
 }
@@ -130,7 +139,7 @@
 		font-size: 14px;
 	}
 	.single-services {
-		height: 490px !important;
+		height: 560px !important;
 	}
 	
 }
@@ -146,6 +155,10 @@
 	header .search_icon {
 		top:74%;
 		right:4px;
+	}
+	.navbar-brand > img {
+		display: block;
+		width: 150px;
 	}
 	#search_option {
 		right:15px;

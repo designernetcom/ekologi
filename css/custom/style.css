@@ -639,8 +639,8 @@ header .search_icon {
 }
 /*===================== Practise Area ===================*/
 .our-service {
-	padding: 50px 0px 35px;
-    background: #e4f0ff;
+	padding: 60px 0px 50px;
+    background: #0076b2;
 }
 .our-service .single-service {
 	text-align: center;
@@ -3532,32 +3532,29 @@ ul.listing2 li{
 	/* margin-left: -40px; */
 }
 .single-services h4{
-	color: #fff;
+	color: #303030;
 	font-weight: 600;
-	line-height: 30px;
-	font-size: 23px;
+	line-height: 28px;
+	font-size: 20px;
 }
 .single-services .icon p{
-	color: #fff;
+	color: #303030;
 	margin-bottom: 15px;
 	line-height: 24px;
 	font-size: 15px;
 }
 .single-services .icon a{
-	color: #000000;
+	color: #ffffff;
     border: 1px solid #0076b2;
     padding: 7px 17px;
-    background: #e5e5e5;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: 600;
+    background: #0075af;
 }
 .single-services{
 	padding: 30px 20px;
 	text-align: center;
 	border: 1px solid #898989;
 	margin-bottom: 20px;
-	background: #0076b2;
+	background: #e3f0fe;
 	height: 470px;
 }
 .single-services span{
@@ -3573,6 +3570,7 @@ ul.listing2 li{
 .title_holder_center h3{
 	text-align: center;
 	font-size: 25px;
+	color: #fff;
 }
 .team-section .title-main{
 	text-align: center;
@@ -3841,4 +3839,12 @@ hr {
 .cookie .btn-div{
 	display: flex;
 	flex-direction: column;
+}
+.extra-height{
+	padding: 30px 20px;
+    text-align: center;
+    border: 1px solid #898989;
+    margin-bottom: 20px;
+    background: #e2f0fd;
+    height: 550px;
 }
